@@ -8,12 +8,12 @@
 import UIKit
 
 class FrameView: UIView {
-    @IBOutlet private var layout: UIImageView!
-    @IBOutlet private var selected: UIImageView!
+    @IBOutlet private var layoutCenter: UIImageView!
+    @IBOutlet private var selectedCenter: UIImageView!
     
-    @IBOutlet private var layout1: UIImageView!
-    @IBOutlet private var selected1: UIImageView!
+    @IBOutlet private var layoutLeft: UIImageView!
+    @IBOutlet private var selectedLeft: UIImageView!
     
-    @IBOutlet private var layout3: UIImageView!
-    @IBOutlet private var selected3: UIImageView!
+    @IBOutlet private var layoutRight: UIImageView!
+    @IBOutlet private var selectedRight: UIImageView!
 }

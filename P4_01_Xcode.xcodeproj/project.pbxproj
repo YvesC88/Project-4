@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB014EE92690724D005FFE56 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB014EE82690724D005FFE56 /* Share.swift */; };
 		FB700DDB268DC89400DFEA9F /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB700DDA268DC89400DFEA9F /* FrameView.swift */; };
 		FB714F64268B693800304F00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB714F63268B693800304F00 /* AppDelegate.swift */; };
 		FB714F66268B693800304F00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB714F65268B693800304F00 /* SceneDelegate.swift */; };
@@ -19,19 +18,15 @@
 		FB714F7A268B698B00304F00 /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB714F79268B698B00304F00 /* ThirstySoftRegular.otf */; };
 		FBDCD82926945B1A005DDBD0 /* TripleLeftFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCD82826945B1A005DDBD0 /* TripleLeftFrameView.swift */; };
 		FBDCD82B26945B36005DDBD0 /* TripleCenterFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCD82A26945B36005DDBD0 /* TripleCenterFrameView.swift */; };
-		FBDCD82D26945CDA005DDBD0 /* TripleLeftFrameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDCD82C26945CDA005DDBD0 /* TripleLeftFrameView.xib */; };
-		FBDCD82F26945CEE005DDBD0 /* TripleCenterFrameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDCD82E26945CEE005DDBD0 /* TripleCenterFrameView.xib */; };
 		FBDCD831269461AA005DDBD0 /* TripleLeftFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCD830269461AA005DDBD0 /* TripleLeftFrame.swift */; };
 		FBDCD8332694634F005DDBD0 /* TripleCenterFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCD8322694634F005DDBD0 /* TripleCenterFrame.swift */; };
 		FBE9EF4C26936F6800E7ED3C /* QuadrupleFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9EF4B26936F6800E7ED3C /* QuadrupleFrame.swift */; };
 		FBE9EF4E2693705100E7ED3C /* QuadrupleFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9EF4D2693705100E7ED3C /* QuadrupleFrameView.swift */; };
-		FBE9EF512693711200E7ED3C /* QuadrupleFrameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE9EF502693711200E7ED3C /* QuadrupleFrameView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB014EE82690724D005FFE56 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Share.swift; path = P4_01_Xcode/Controller/Share.swift; sourceTree = SOURCE_ROOT; };
 		FB700DDA268DC89400DFEA9F /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = P4_01_Xcode/Controller/FrameView.swift; sourceTree = SOURCE_ROOT; };
-		FB714F60268B693800304F00 /* P4_01_Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P4_01_Xcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB714F60268B693800304F00 /* Instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB714F63268B693800304F00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB714F65268B693800304F00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB714F67268B693800304F00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,13 +38,10 @@
 		FB714F79268B698B00304F00 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 		FBDCD82826945B1A005DDBD0 /* TripleLeftFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleLeftFrameView.swift; sourceTree = "<group>"; };
 		FBDCD82A26945B36005DDBD0 /* TripleCenterFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleCenterFrameView.swift; sourceTree = "<group>"; };
-		FBDCD82C26945CDA005DDBD0 /* TripleLeftFrameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripleLeftFrameView.xib; sourceTree = "<group>"; };
-		FBDCD82E26945CEE005DDBD0 /* TripleCenterFrameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripleCenterFrameView.xib; sourceTree = "<group>"; };
 		FBDCD830269461AA005DDBD0 /* TripleLeftFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleLeftFrame.swift; sourceTree = "<group>"; };
 		FBDCD8322694634F005DDBD0 /* TripleCenterFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleCenterFrame.swift; sourceTree = "<group>"; };
 		FBE9EF4B26936F6800E7ED3C /* QuadrupleFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrupleFrame.swift; sourceTree = "<group>"; };
 		FBE9EF4D2693705100E7ED3C /* QuadrupleFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrupleFrameView.swift; sourceTree = "<group>"; };
-		FBE9EF502693711200E7ED3C /* QuadrupleFrameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuadrupleFrameView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +58,6 @@
 		FB3BC91A268B848C00051AB1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FB014EE82690724D005FFE56 /* Share.swift */,
 				FBDCD830269461AA005DDBD0 /* TripleLeftFrame.swift */,
 				FBDCD8322694634F005DDBD0 /* TripleCenterFrame.swift */,
 				FBE9EF4B26936F6800E7ED3C /* QuadrupleFrame.swift */,
@@ -116,7 +107,7 @@
 		FB714F61268B693800304F00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB714F60268B693800304F00 /* P4_01_Xcode.app */,
+				FB714F60268B693800304F00 /* Instagrid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,11 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				FBDCD82826945B1A005DDBD0 /* TripleLeftFrameView.swift */,
-				FBDCD82C26945CDA005DDBD0 /* TripleLeftFrameView.xib */,
 				FBDCD82A26945B36005DDBD0 /* TripleCenterFrameView.swift */,
-				FBDCD82E26945CEE005DDBD0 /* TripleCenterFrameView.xib */,
 				FBE9EF4D2693705100E7ED3C /* QuadrupleFrameView.swift */,
-				FBE9EF502693711200E7ED3C /* QuadrupleFrameView.xib */,
 			);
 			path = Frames;
 			sourceTree = "<group>";
@@ -163,7 +151,7 @@
 			);
 			name = P4_01_Xcode;
 			productName = P4_01_Xcode;
-			productReference = FB714F60268B693800304F00 /* P4_01_Xcode.app */;
+			productReference = FB714F60268B693800304F00 /* Instagrid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -204,13 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB714F70268B693900304F00 /* LaunchScreen.storyboard in Resources */,
-				FBDCD82F26945CEE005DDBD0 /* TripleCenterFrameView.xib in Resources */,
 				FB714F6D268B693900304F00 /* Assets.xcassets in Resources */,
-				FBE9EF512693711200E7ED3C /* QuadrupleFrameView.xib in Resources */,
 				FB714F7A268B698B00304F00 /* ThirstySoftRegular.otf in Resources */,
 				FB714F78268B698300304F00 /* Delm-Medium.otf in Resources */,
 				FB714F6B268B693800304F00 /* Main.storyboard in Resources */,
-				FBDCD82D26945CDA005DDBD0 /* TripleLeftFrameView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB014EE92690724D005FFE56 /* Share.swift in Sources */,
 				FBE9EF4E2693705100E7ED3C /* QuadrupleFrameView.swift in Sources */,
 				FB700DDB268DC89400DFEA9F /* FrameView.swift in Sources */,
 				FB714F68268B693800304F00 /* ViewController.swift in Sources */,
@@ -386,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.yvescharpentier.P4-01-Xcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Instagrid;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -405,7 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.yvescharpentier.P4-01-Xcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Instagrid;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
