@@ -34,13 +34,13 @@ class ViewController: UIViewController {
     
     var imageViewToFill: UIImageView?
     
-    //MARK: Object lifecylce
+    //MARK: - Object lifecylce
     
     deinit {
         NotificationCenter.default.removeObserver(self, name: UIDevice.orientationDidChangeNotification, object: nil)
     }
     
-    //MARK: View lifecycle
+    //MARK: - View lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         frameViewRight.addGestureRecognizer(tapGestureRecognizerRight)
     }
     
-    //MARK: Private
+    //MARK: - Private
     
     func pickImage() {
         let vc = UIImagePickerController()

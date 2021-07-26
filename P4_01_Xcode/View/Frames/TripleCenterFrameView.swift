@@ -21,6 +21,8 @@ class TripleCenterFrameView: UIView {
     weak var delegate: ViewControllerDelegate?
     var swipeGestureRecognizer: UISwipeGestureRecognizer!
     
+    //MARK: - Object lifecycle
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         

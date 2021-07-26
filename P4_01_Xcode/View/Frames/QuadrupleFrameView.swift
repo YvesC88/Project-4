@@ -27,6 +27,8 @@ class QuadrupleFrameView: UIView {
     
     var imageViewToFill: UIImageView?
     
+    //MARK: - Object lifecycle
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
