@@ -39,11 +39,11 @@ class ViewController: UIViewController {
     @IBOutlet var tripleLeftFrameView: TripleLeftFrameView!
     @IBOutlet var tripleCenterFrameView: TripleCenterFrameView!
     
-    @IBOutlet var swipeUp: UILabel!
-    @IBOutlet var arrowUp: UIImageView!
+    @IBOutlet var swipeUpLabel: UILabel!
+    @IBOutlet var arrowUpImage: UIImageView!
     
-    @IBOutlet var swipeLeft: UILabel!
-    @IBOutlet var arrowLeft: UIImageView!
+    @IBOutlet var swipeLeftLabel: UILabel!
+    @IBOutlet var arrowLeftImage: UIImageView!
     
     var imageViewToFill: UIImageView?
     
@@ -89,16 +89,16 @@ class ViewController: UIViewController {
     
     @objc func rotated() {
         if UIDevice.current.orientation.isLandscape {
-            swipeUp.isHidden = true
-            arrowUp.isHidden = true
-            swipeLeft.isHidden = false
-            arrowLeft.isHidden = false
+            swipeUpLabel.isHidden = true
+            arrowUpImage.isHidden = true
+            swipeLeftLabel.isHidden = false
+            arrowLeftImage.isHidden = false
             
         } else {
-            swipeUp.isHidden = false
-            arrowUp.isHidden = false
-            swipeLeft.isHidden = true
-            arrowLeft.isHidden = true
+            swipeUpLabel.isHidden = false
+            arrowUpImage.isHidden = false
+            swipeLeftLabel.isHidden = true
+            arrowLeftImage.isHidden = true
         }
     }
     

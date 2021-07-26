@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,11 +21,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instagrid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="6S9-Xa-xMb" customClass="TripleLeftFrameView" customModule="Instagrid" customModuleProvider="target">
-                                <rect key="frame" x="134" y="10" width="300" height="300"/>
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvg-Hf-bQw">
                                         <rect key="frame" x="8" y="8" width="284" height="127"/>
@@ -85,7 +85,7 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Va9-xJ-hcC" customClass="QuadrupleFrameView" customModule="Instagrid" customModuleProvider="target">
-                                <rect key="frame" x="134" y="10" width="300" height="300"/>
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrf-Yo-Rpu">
                                         <rect key="frame" x="8" y="8" width="127" height="127"/>
@@ -163,7 +163,7 @@
                                 </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swip up to share" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H59-HS-Hej">
-                                <rect key="frame" x="197.5" y="-28" width="173" height="28"/>
+                                <rect key="frame" x="120.5" y="260" width="173" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="173" id="3pA-ck-KM5"/>
                                 </constraints>
@@ -172,7 +172,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow Up" translatesAutoresizingMaskIntoConstraints="NO" id="gMO-MA-vin">
-                                <rect key="frame" x="279" y="-46" width="10" height="13"/>
+                                <rect key="frame" x="202" y="242" width="10" height="13"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="13" id="8mr-tT-UbF"/>
                                     <constraint firstAttribute="width" constant="10" id="HHv-ed-pTU"/>
@@ -180,7 +180,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fnj-Jz-Rqa" customClass="TripleCenterFrameView" customModule="Instagrid" customModuleProvider="target">
-                                <rect key="frame" x="134" y="10" width="300" height="300"/>
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaS-Mo-tdQ">
                                         <rect key="frame" x="8" y="8" width="127" height="127"/>
@@ -240,7 +240,7 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="69N-06-2Ky" customClass="FrameView" customModule="Instagrid" customModuleProvider="target">
-                                <rect key="frame" x="468" y="120" width="80" height="80"/>
+                                <rect key="frame" x="167" y="772" width="80" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="FrameCenter" translatesAutoresizingMaskIntoConstraints="NO" id="JBV-cQ-PBh">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
@@ -278,7 +278,7 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RnU-ct-ZPb" customClass="FrameView" customModule="Instagrid" customModuleProvider="target">
-                                <rect key="frame" x="468" y="10" width="80" height="80"/>
+                                <rect key="frame" x="267" y="772" width="80" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="FrameRight" translatesAutoresizingMaskIntoConstraints="NO" id="7mQ-Xm-dXe" userLabel="Layout Right">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
@@ -315,7 +315,7 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88J-kd-gr6" customClass="FrameView" customModule="Instagrid" customModuleProvider="target">
-                                <rect key="frame" x="468" y="230" width="80" height="80"/>
+                                <rect key="frame" x="67" y="772" width="80" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="FrameLeft" translatesAutoresizingMaskIntoConstraints="NO" id="E5c-4R-sbb">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
@@ -354,7 +354,7 @@
                                 </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Swipe left to share" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9N-cE-euG">
-                                <rect key="frame" x="8.5" y="130" width="117.5" height="60"/>
+                                <rect key="frame" x="207" y="418" width="0.0" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="165" id="1bN-SV-bPz"/>
                                     <constraint firstAttribute="height" constant="40" id="mKs-Qk-XWd">
@@ -376,7 +376,7 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow Left" translatesAutoresizingMaskIntoConstraints="NO" id="w9X-P6-6gu">
-                                <rect key="frame" x="62.5" y="109" width="10" height="13"/>
+                                <rect key="frame" x="202" y="397" width="10" height="13"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="13" id="157-WC-ZkB"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="13" id="Uqf-wt-Ko6"/>
@@ -411,7 +411,7 @@
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagrid" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ped-3S-fXX">
-                                <rect key="frame" x="8" y="20" width="118.5" height="39"/>
+                                <rect key="frame" x="8" y="64" width="398" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ped-3S-fXX" secondAttribute="height" multiplier="173:51" id="CPz-RN-xzc"/>
                                     <constraint firstAttribute="height" constant="51" id="gPV-WE-08H"/>
@@ -497,6 +497,12 @@
                                 <exclude reference="aPI-5D-Dnf"/>
                                 <exclude reference="b95-5D-Et4"/>
                                 <exclude reference="tbM-Kw-ivF"/>
+                                <exclude reference="JUP-Ca-xNm"/>
+                                <exclude reference="WxG-0U-cTF"/>
+                                <exclude reference="bMS-ah-fa3"/>
+                                <exclude reference="hWC-CC-li6"/>
+                                <exclude reference="pId-12-59j"/>
+                                <exclude reference="zA3-kE-zy3"/>
                                 <exclude reference="69V-lQ-l7L"/>
                                 <exclude reference="8PY-SD-15L"/>
                                 <exclude reference="8bz-TW-6Gi"/>
@@ -511,12 +517,6 @@
                                 <exclude reference="bEF-zO-HXR"/>
                                 <exclude reference="ihP-wf-JIT"/>
                                 <exclude reference="maF-UC-Q49"/>
-                                <exclude reference="JUP-Ca-xNm"/>
-                                <exclude reference="WxG-0U-cTF"/>
-                                <exclude reference="bMS-ah-fa3"/>
-                                <exclude reference="hWC-CC-li6"/>
-                                <exclude reference="pId-12-59j"/>
-                                <exclude reference="zA3-kE-zy3"/>
                                 <exclude reference="Ttq-U9-hQs"/>
                                 <exclude reference="ZQ5-OD-vvS"/>
                                 <exclude reference="78x-Ui-d7K"/>
@@ -549,6 +549,10 @@
                                 <include reference="b95-5D-Et4"/>
                                 <exclude reference="h52-C7-MJz"/>
                                 <include reference="tbM-Kw-ivF"/>
+                                <exclude reference="JUP-Ca-xNm"/>
+                                <exclude reference="WxG-0U-cTF"/>
+                                <exclude reference="hWC-CC-li6"/>
+                                <include reference="zA3-kE-zy3"/>
                                 <include reference="69V-lQ-l7L"/>
                                 <exclude reference="8PY-SD-15L"/>
                                 <exclude reference="8bz-TW-6Gi"/>
@@ -560,20 +564,16 @@
                                 <include reference="PxL-7G-jKs"/>
                                 <exclude reference="QiO-gB-vXu"/>
                                 <include reference="maF-UC-Q49"/>
-                                <exclude reference="JUP-Ca-xNm"/>
-                                <exclude reference="WxG-0U-cTF"/>
-                                <exclude reference="hWC-CC-li6"/>
-                                <include reference="zA3-kE-zy3"/>
                                 <include reference="Ttq-U9-hQs"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=regular">
                             <mask key="constraints">
+                                <include reference="bMS-ah-fa3"/>
+                                <exclude reference="pId-12-59j"/>
                                 <include reference="Vln-c0-Tee"/>
                                 <include reference="bEF-zO-HXR"/>
                                 <include reference="ihP-wf-JIT"/>
-                                <include reference="bMS-ah-fa3"/>
-                                <exclude reference="pId-12-59j"/>
                                 <include reference="ZQ5-OD-vvS"/>
                             </mask>
                         </variation>
@@ -584,8 +584,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="arrowLeft" destination="w9X-P6-6gu" id="bf5-IM-7HT"/>
-                        <outlet property="arrowUp" destination="gMO-MA-vin" id="QPM-tu-T0L"/>
+                        <outlet property="arrowLeftImage" destination="w9X-P6-6gu" id="wft-Vi-Mpf"/>
+                        <outlet property="arrowUpImage" destination="gMO-MA-vin" id="ooo-3d-FxD"/>
                         <outlet property="frameViewCenter" destination="69N-06-2Ky" id="kGP-tM-144"/>
                         <outlet property="frameViewLeft" destination="88J-kd-gr6" id="W6m-aT-uiy"/>
                         <outlet property="frameViewRight" destination="RnU-ct-ZPb" id="tA9-BB-1RH"/>
@@ -593,8 +593,8 @@
                         <outlet property="selectedLayoutCenter" destination="OZ4-9y-Zxo" id="0cR-yx-uOr"/>
                         <outlet property="selectedLayoutLeft" destination="Y6q-aF-HeX" id="cBG-4d-r5H"/>
                         <outlet property="selectedLayoutRight" destination="ioT-Or-5Pl" id="Dzf-EE-WL2"/>
-                        <outlet property="swipeLeft" destination="c9N-cE-euG" id="hYE-kr-Ua3"/>
-                        <outlet property="swipeUp" destination="H59-HS-Hej" id="wCR-tn-EeU"/>
+                        <outlet property="swipeLeftLabel" destination="c9N-cE-euG" id="Nsu-4C-fTc"/>
+                        <outlet property="swipeUpLabel" destination="H59-HS-Hej" id="j1P-TW-Igx"/>
                         <outlet property="tripleCenterFrameView" destination="fnj-Jz-Rqa" id="ycR-mh-DhN"/>
                         <outlet property="tripleLeftFrameView" destination="6S9-Xa-xMb" id="Kfz-Yu-odt"/>
                     </connections>
