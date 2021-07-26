@@ -7,19 +7,6 @@
 
 import UIKit
 
-//protocol Runnable {
-//    var leg: Int { get set }
-//    func run()
-//}
-//
-//class Cat: Runnable {
-//    var leg: Int = 0
-//
-//    func run() {
-//
-//    }
-//}
-
 protocol ViewControllerDelegate: AnyObject {
     func frameView(_ frameView: UIView, didTapButton button: UIButton, imageView: UIImageView)
     func userDidSwipe(_ frameView: UIView)
